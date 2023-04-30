@@ -12,3 +12,12 @@ The project consists of four main parts:
 4. **Part 4: Visualizing Cryptocurrencies Results** - The results of the clustering will be visualized using various data visualization techniques to effectively communicate the findings.
 
 
+## Results
+Initially, I cleaned the dataset to retain only cryptocurrencies that are actively traded, possess a defined algorithm, and have a complete set of data points. This refinement led to a dataset containing 532 distinct cryptocurrencies. Subsequently, I generated a three-dimensional graph to visualize the grouping of these cryptocurrencies. Each point on the graph represents a cryptocurrency and displays its name along with the algorithm employed for its creation.
+
+
+![3d Cluster](Images/3d_clusters.png)
+
+Subsequently, I generated a two-dimensional graph to demonstrate the relationship between total coin supply and total coins mined, showcasing how each currency compares to the rest. Each point on this graph includes its corresponding currency name.
+
+![Scatter](Images/scatterplot.png)
